@@ -20,7 +20,7 @@ default to the correct directories for RetroPie.
 Im having trouble getting github to accept a zip file on the releases, so for now you can grab them here:
 
 Python:
-https://github.com/thorst/CueMaker/blob/master/CueMaker/CueMakerPy2/CueMakerPy2.py
+https://raw.githubusercontent.com/thorst/CueMaker/master/CueMaker/CueMakerPy2/CueMakerPy2.py
 
 .Net:
-https://github.com/thorst/CueMaker/blob/master/CueMaker/CueMakerDotNet/bin/Release/CueMakerDotNet.exe
+https://github.com/thorst/CueMaker/raw/master/CueMaker/CueMakerDotNet/bin/Release/CueMakerDotNet.exe
