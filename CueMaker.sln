@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CueMakerPy2", "CueMaker\Cue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9508D369-A8B3-470F-9A46-EE0439E67BEF}"
 	ProjectSection(SolutionItems) = preProject
+		Release\CueMakerDotNet.zip = Release\CueMakerDotNet.zip
+		Release\CueMakerPy2.zip = Release\CueMakerPy2.zip
 		README.md = README.md
 	EndProjectSection
 EndProject
