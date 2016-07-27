@@ -21,3 +21,6 @@ Im having trouble getting github to accept a zip file on the releases, so for no
 
 Python:
 https://github.com/thorst/CueMaker/blob/master/CueMaker/CueMakerPy2/CueMakerPy2.py
+
+.Net:
+https://github.com/thorst/CueMaker/blob/master/CueMaker/CueMakerDotNet/bin/Release/CueMakerDotNet.exe
