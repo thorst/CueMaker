@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CueMakerDotNet", "CueMakerDotNet\CueMakerDotNet.csproj", "{C007547E-F0B8-4148-8DCA-EE1DF7B71C3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CueMakerDotNet", "CueMaker\CueMakerDotNet\CueMakerDotNet.csproj", "{C007547E-F0B8-4148-8DCA-EE1DF7B71C3A}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CueMakerPy2", "CueMakerPy2\CueMakerPy2.pyproj", "{DBC18B05-BE2A-4639-9141-646CA1A4DB3F}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CueMakerPy2", "CueMaker\CueMakerPy2\CueMakerPy2.pyproj", "{DBC18B05-BE2A-4639-9141-646CA1A4DB3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9508D369-A8B3-470F-9A46-EE0439E67BEF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
