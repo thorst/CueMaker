@@ -77,9 +77,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 13);
+            this.label1.Size = new System.Drawing.Size(164, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Scan Directory OR File:";
+            this.label1.Text = "Select scan directory OR .bin file:";
             // 
             // button1
             // 
