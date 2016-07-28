@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CueMakerDotNet")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WellSpan")]
+[assembly: AssemblyCompany("Thorst")]
 [assembly: AssemblyProduct("CueMakerDotNet")]
-[assembly: AssemblyCopyright("Copyright © WellSpan 2016")]
+[assembly: AssemblyCopyright("Copyright © Thorst 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
