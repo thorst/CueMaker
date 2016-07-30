@@ -7,7 +7,7 @@ from os import walk
 
 # Define path to search
 # mypath is a literal string so you dont have to escape path
-mypath = r"/home/pi/RetroPie/roms/psx";
+mypath = r"/home/pi/RetroPie/roms";
 recursive = True
 
 # Get input
