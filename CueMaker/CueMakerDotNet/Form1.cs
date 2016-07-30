@@ -62,8 +62,9 @@ INDEX 01 00:00:00";
             }
             catch (System.Exception excpt)
             {
-                Console.WriteLine(excpt.Message);
+                rtOutput.AppendText(excpt.Message + "\r");
             }
+            rtOutput.AppendText("Done." + cue + "\r");
         }
         public void createCue (string file)
         {
