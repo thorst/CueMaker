@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Import libs
 import os
@@ -16,12 +16,12 @@ if (sys.version_info > (3, 0)):
     #py3 code
     mypath = input("Please enter path to scan ["+mypath+"]:") or mypath
     trecursive = input("Search Recursive? ["+str(recursive)+"]:").strip().title() or recursive
-    recursive = trecursive in trues 
+    recursive = trecursive in trues
 else:
     #py2 code
     mypath = raw_input("Please enter path to scan ["+mypath+"]:") or mypath
     trecursive = raw_input("Search Recursive? ["+str(recursive)+"]:").strip().title() or recursive
-    recursive = trecursive in trues 
+    recursive = trecursive in trues
 
 # Define cue file
 cue = r"""FILE "%FILENAME%.bin" BINARY
@@ -34,7 +34,7 @@ for (dirpath, dirnames, filenames) in walk(mypath):
     for file in filenames:
         # Get extension
         filename, file_extension = os.path.splitext(file)
-        
+
         # If its a bin
         if file_extension.lower()==".bin":
 
@@ -49,7 +49,7 @@ for (dirpath, dirnames, filenames) in walk(mypath):
 
                 # Output write
                 print("Cue created: " + savePath)
-    
+
     # If they dont want to go recursive, get out
     if not recursive:
         break
