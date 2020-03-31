@@ -24,7 +24,7 @@ else:
     recursive = trecursive in trues
 
 # Define cue file
-cue = r"""FILE "%FILENAME%.bin" BINARY
+cue = r"""FILE "%FILENAME%" BINARY
 TRACK 01 MODE1/2352
 INDEX 01 00:00:00"""
 
@@ -36,7 +36,7 @@ for (dirpath, dirnames, filenames) in walk(mypath):
         filename, file_extension = os.path.splitext(file)
 
         # If its a bin
-        if file_extension.lower()==".bin":
+        if file_extension.lower()==".bin" or file_extension.lower()==".iso" or file_extension.lower()==".img":
 
             # Search for a cue
             if (filename + ".cue").lower() not in (name.lower() for name in filenames):
@@ -44,7 +44,7 @@ for (dirpath, dirnames, filenames) in walk(mypath):
                 # None found, create one
                 savePath = os.path.join(dirpath,filename+ ".cue")
                 fileHandle = open(savePath, "w")
-                fileHandle.write(cue.replace("%FILENAME%", filename))
+                fileHandle.write(cue.replace("%FILENAME%", file))
                 fileHandle.close()
 
                 # Output write
